@@ -7,27 +7,21 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 nav {
-  overflow: hidden;  padding: 0px 20px; border-bottom: 5px solid #02f102;
-   background-color: white;
+  overflow: hidden;  padding: 15px 30px; border-bottom: 5px solid #533f02; background-color: white;
 }
 
-nav img{
-  width: 20%;
-}
+nav img{  width: 20%;}
 
 .rightSection {  float: right;  margin-right: 5%; }
 
 .links {
-    font-family: Georgia;   font-weight: bold;
-    float: right;  color:black;
-    text-align: center;  padding: 20px;
-    text-decoration: none;  font-size: 25px;
-      border-radius: 25px; margin-top: -80px;
+    font-family: Georgia;   font-weight: bold;float: right; color: #010872;
+    text-align: center;  padding: 10px; text-decoration: none; border-radius: 25px; margin-top: -80px;
   }
 
-nav h3 {
-    font-family: 'Sofia',cursive; font-size: 30px;
-    font-weight: bold; margin-left: 5%; color: #b08401;
+nav h4 {
+    font-family: 'Sofia',cursive;
+    font-weight: bold; margin-left: 5%; 
   }
 
   .navigation{
@@ -46,7 +40,7 @@ nav h3 {
   .navigation a:hover{
     text-decoration: none;
   }
-
+  
   .sec1{
     
     height: 300px;
@@ -86,7 +80,7 @@ nav h3 {
 footer{ 
     background-color: black; color: white;
     height: 40vh; width: 100%; padding: 5px; position: fixed; bottom: 0;
-    border-top: 5px solid #f1ed02;
+    border-top: 5px solid #028f02;
 }
 @media (max-height:800px){
 	footer { position: static; 
